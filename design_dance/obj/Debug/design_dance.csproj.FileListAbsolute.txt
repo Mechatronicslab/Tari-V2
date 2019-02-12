@@ -33,7 +33,6 @@ G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\
 G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Legacy.xml
 G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.exe
 G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.pdb
-C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_mainAdmin.resources
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_signin.resources
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_signup.resources

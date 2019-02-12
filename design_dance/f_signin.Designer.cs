@@ -40,11 +40,11 @@
             this.t_descSignin = new System.Windows.Forms.Label();
             this.t_signin = new System.Windows.Forms.Label();
             this.labelPanel = new System.Windows.Forms.Panel();
-            this.ic_signin = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mainPanel.SuspendLayout();
             this.labelPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ic_signin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -74,10 +74,10 @@
             this.b_signin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.b_signin.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("b_signin.ErrorImageLeft")));
             this.b_signin.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("b_signin.ErrorImageRight")));
-            this.b_signin.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_signin.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
             this.b_signin.FocusFontColor = System.Drawing.Color.White;
             this.b_signin.ForeColors = System.Drawing.Color.White;
-            this.b_signin.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.b_signin.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
             this.b_signin.HoverFontColor = System.Drawing.Color.White;
             this.b_signin.ImageLeft = ((System.Drawing.Image)(resources.GetObject("b_signin.ImageLeft")));
             this.b_signin.ImageRight = null;
@@ -99,17 +99,17 @@
             this.mPassword.BackColor = System.Drawing.Color.Transparent;
             this.mPassword.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mPassword.Font_Size = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mPassword.ForeColors = System.Drawing.Color.Black;
+            this.mPassword.ForeColors = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.mPassword.HintText = "Password";
             this.mPassword.IsPassword = true;
-            this.mPassword.LineBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.mPassword.LineBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.mPassword.LineThickness = 1;
             this.mPassword.Location = new System.Drawing.Point(11, 254);
             this.mPassword.Margin = new System.Windows.Forms.Padding(0);
             this.mPassword.MaxLength = 32767;
             this.mPassword.Name = "mPassword";
-            this.mPassword.OnFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.mPassword.OnFocusedTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.mPassword.OnFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.mPassword.OnFocusedTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.mPassword.ReadOnly = false;
             this.mPassword.Size = new System.Drawing.Size(291, 28);
             this.mPassword.TabIndex = 8;
@@ -120,7 +120,7 @@
             // 
             this.t_password.AutoSize = true;
             this.t_password.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.t_password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.t_password.Location = new System.Drawing.Point(9, 224);
             this.t_password.Name = "t_password";
             this.t_password.Size = new System.Drawing.Size(67, 16);
@@ -132,22 +132,22 @@
             this.mUsername.BackColor = System.Drawing.Color.Transparent;
             this.mUsername.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mUsername.Font_Size = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mUsername.ForeColors = System.Drawing.Color.Black;
+            this.mUsername.ForeColors = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.mUsername.HintText = "Username";
             this.mUsername.IsPassword = false;
-            this.mUsername.LineBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.mUsername.LineBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.mUsername.LineThickness = 1;
             this.mUsername.Location = new System.Drawing.Point(11, 171);
             this.mUsername.Margin = new System.Windows.Forms.Padding(0);
             this.mUsername.MaxLength = 32767;
             this.mUsername.Name = "mUsername";
-            this.mUsername.OnFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.mUsername.OnFocusedTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.mUsername.OnFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.mUsername.OnFocusedTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.mUsername.ReadOnly = false;
             this.mUsername.Size = new System.Drawing.Size(291, 28);
             this.mUsername.TabIndex = 6;
             this.mUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.mUsername.TextName = "";            
+            this.mUsername.TextName = "";
             // 
             // b_exit
             // 
@@ -160,7 +160,7 @@
             this.b_exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.b_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.b_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.b_exit.Location = new System.Drawing.Point(261, 7);
             this.b_exit.Name = "b_exit";
             this.b_exit.Size = new System.Drawing.Size(52, 23);
@@ -173,7 +173,7 @@
             // 
             this.t_copyright.AutoSize = true;
             this.t_copyright.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.t_copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.t_copyright.Location = new System.Drawing.Point(214, 490);
             this.t_copyright.Name = "t_copyright";
             this.t_copyright.Size = new System.Drawing.Size(92, 15);
@@ -184,7 +184,7 @@
             // 
             this.t_username.AutoSize = true;
             this.t_username.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.t_username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.t_username.Location = new System.Drawing.Point(11, 146);
             this.t_username.Name = "t_username";
             this.t_username.Size = new System.Drawing.Size(70, 16);
@@ -195,7 +195,7 @@
             // 
             this.t_descSignin.AutoSize = true;
             this.t_descSignin.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_descSignin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.t_descSignin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.t_descSignin.Location = new System.Drawing.Point(9, 52);
             this.t_descSignin.Name = "t_descSignin";
             this.t_descSignin.Size = new System.Drawing.Size(182, 15);
@@ -206,7 +206,7 @@
             // 
             this.t_signin.AutoSize = true;
             this.t_signin.Font = new System.Drawing.Font("Lucida Sans Unicode", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_signin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.t_signin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.t_signin.Location = new System.Drawing.Point(6, 23);
             this.t_signin.Name = "t_signin";
             this.t_signin.Size = new System.Drawing.Size(75, 25);
@@ -216,24 +216,13 @@
             // labelPanel
             // 
             this.labelPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("labelPanel.BackgroundImage")));
-            this.labelPanel.Controls.Add(this.ic_signin);
+            this.labelPanel.Controls.Add(this.pictureBox1);
             this.labelPanel.Controls.Add(this.t_sigehPengunten);
             this.labelPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.labelPanel.Location = new System.Drawing.Point(0, 0);
             this.labelPanel.Name = "labelPanel";
             this.labelPanel.Size = new System.Drawing.Size(355, 514);
             this.labelPanel.TabIndex = 0;
-            // 
-            // ic_signin
-            // 
-            this.ic_signin.BackColor = System.Drawing.Color.Transparent;
-            this.ic_signin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ic_signin.BackgroundImage")));
-            this.ic_signin.Location = new System.Drawing.Point(81, 171);
-            this.ic_signin.Name = "ic_signin";
-            this.ic_signin.Size = new System.Drawing.Size(219, 124);
-            this.ic_signin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ic_signin.TabIndex = 1;
-            this.ic_signin.TabStop = false;
             // 
             // t_sigehPengunten
             // 
@@ -246,6 +235,17 @@
             this.t_sigehPengunten.Size = new System.Drawing.Size(275, 41);
             this.t_sigehPengunten.TabIndex = 0;
             this.t_sigehPengunten.Text = "Sigeh Pengunten";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(81, 171);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(219, 124);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // f_signin
             // 
@@ -263,7 +263,7 @@
             this.mainPanel.PerformLayout();
             this.labelPanel.ResumeLayout(false);
             this.labelPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ic_signin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -272,7 +272,6 @@
 
         private System.Windows.Forms.Panel labelPanel;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.PictureBox ic_signin;
         private System.Windows.Forms.Label t_sigehPengunten;
         private System.Windows.Forms.Label t_descSignin;
         private System.Windows.Forms.Label t_signin;
@@ -283,6 +282,7 @@
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Label t_copyright;
         private System.Windows.Forms.Label t_username;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
