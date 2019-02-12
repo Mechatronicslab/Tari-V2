@@ -144,25 +144,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg_login.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\siger.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icon_itb.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icon_lpdp.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icon_itb1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icon_lpdp1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bg_login1.png" />
+    <None Include="Resources\bg_login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
