@@ -24,11 +24,6 @@ namespace design_dance
             Connect();
         }
 
-        private void f_signin_Load(object sender, EventArgs e) {
-
-            Connect();
-        }
-
 
 
         private void b_exit_Click(object sender, EventArgs e)

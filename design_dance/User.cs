@@ -12,15 +12,10 @@ namespace design_dance
     {
         [BsonId]
         public ObjectId id { get; set; }
-        [BsonElement("username")]
-        public String mUsername { get; set; }
-        [BsonElement("password")]
-        public String mPass { get; set; }
+       
+        public string username { get; set; }
+   
+        public string password{ get; set; }
 
-        public User(string username, string password)
-        {
-            this.mUsername = username;
-            this.mPass = password;
-        }
     }
 }
