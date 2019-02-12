@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_signup));
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelRight = new System.Windows.Forms.Panel();
             this.t_copyright = new System.Windows.Forms.Label();
             this.b_exit = new System.Windows.Forms.Button();
             this.t_descSignin = new System.Windows.Forms.Label();
@@ -39,30 +39,30 @@
             this.mPassword = new JMaterialTextbox.JMaterialTextbox();
             this.t_password = new System.Windows.Forms.Label();
             this.t_username = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelLeft = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
-            this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panelRight.SuspendLayout();
+            this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
+            // panelRight
             // 
-            this.panel2.Controls.Add(this.t_copyright);
-            this.panel2.Controls.Add(this.b_exit);
-            this.panel2.Controls.Add(this.t_descSignin);
-            this.panel2.Controls.Add(this.t_signup);
-            this.panel2.Controls.Add(this.b_signup);
-            this.panel2.Controls.Add(this.mUsername);
-            this.panel2.Controls.Add(this.mPassword);
-            this.panel2.Controls.Add(this.t_password);
-            this.panel2.Controls.Add(this.t_username);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(355, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(318, 514);
-            this.panel2.TabIndex = 0;
+            this.panelRight.Controls.Add(this.t_copyright);
+            this.panelRight.Controls.Add(this.b_exit);
+            this.panelRight.Controls.Add(this.t_descSignin);
+            this.panelRight.Controls.Add(this.t_signup);
+            this.panelRight.Controls.Add(this.b_signup);
+            this.panelRight.Controls.Add(this.mUsername);
+            this.panelRight.Controls.Add(this.mPassword);
+            this.panelRight.Controls.Add(this.t_password);
+            this.panelRight.Controls.Add(this.t_username);
+            this.panelRight.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRight.Location = new System.Drawing.Point(355, 0);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(318, 514);
+            this.panelRight.TabIndex = 0;
             // 
             // t_copyright
             // 
@@ -211,17 +211,17 @@
             this.t_username.TabIndex = 3;
             this.t_username.Text = "Username";
             // 
-            // panel1
+            // panelLeft
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.t_sigehPengunten);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(355, 514);
-            this.panel1.TabIndex = 0;
+            this.panelLeft.BackColor = System.Drawing.Color.Transparent;
+            this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
+            this.panelLeft.Controls.Add(this.pictureBox1);
+            this.panelLeft.Controls.Add(this.t_sigehPengunten);
+            this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelLeft.Name = "panelLeft";
+            this.panelLeft.Size = new System.Drawing.Size(355, 514);
+            this.panelLeft.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -250,15 +250,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(673, 514);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelRight);
+            this.Controls.Add(this.panelLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "f_signup";
             this.Text = "f_signup";
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelRight.ResumeLayout(false);
+            this.panelRight.PerformLayout();
+            this.panelLeft.ResumeLayout(false);
+            this.panelLeft.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -266,8 +266,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelLeft;
+        private System.Windows.Forms.Panel panelRight;
         private System.Windows.Forms.Label t_username;
         private System.Windows.Forms.Label t_password;
         private JMaterialTextbox.JMaterialTextbox mPassword;

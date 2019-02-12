@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_signin));
-            this.mainPanel = new System.Windows.Forms.Panel();
+            this.panelRight = new System.Windows.Forms.Panel();
             this.b_signin = new FlatButton.JFlatButton();
             this.mPassword = new JMaterialTextbox.JMaterialTextbox();
             this.t_password = new System.Windows.Forms.Label();
@@ -39,31 +39,31 @@
             this.t_username = new System.Windows.Forms.Label();
             this.t_descSignin = new System.Windows.Forms.Label();
             this.t_signin = new System.Windows.Forms.Label();
-            this.labelPanel = new System.Windows.Forms.Panel();
-            this.t_sigehPengunten = new System.Windows.Forms.Label();
+            this.panelLeft = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.mainPanel.SuspendLayout();
-            this.labelPanel.SuspendLayout();
+            this.t_sigehPengunten = new System.Windows.Forms.Label();
+            this.panelRight.SuspendLayout();
+            this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // mainPanel
+            // panelRight
             // 
-            this.mainPanel.Controls.Add(this.b_signin);
-            this.mainPanel.Controls.Add(this.mPassword);
-            this.mainPanel.Controls.Add(this.t_password);
-            this.mainPanel.Controls.Add(this.mUsername);
-            this.mainPanel.Controls.Add(this.b_exit);
-            this.mainPanel.Controls.Add(this.t_copyright);
-            this.mainPanel.Controls.Add(this.t_username);
-            this.mainPanel.Controls.Add(this.t_descSignin);
-            this.mainPanel.Controls.Add(this.t_signin);
-            this.mainPanel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(355, 0);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(318, 514);
-            this.mainPanel.TabIndex = 1;
+            this.panelRight.Controls.Add(this.b_signin);
+            this.panelRight.Controls.Add(this.mPassword);
+            this.panelRight.Controls.Add(this.t_password);
+            this.panelRight.Controls.Add(this.mUsername);
+            this.panelRight.Controls.Add(this.b_exit);
+            this.panelRight.Controls.Add(this.t_copyright);
+            this.panelRight.Controls.Add(this.t_username);
+            this.panelRight.Controls.Add(this.t_descSignin);
+            this.panelRight.Controls.Add(this.t_signin);
+            this.panelRight.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelRight.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRight.Location = new System.Drawing.Point(355, 0);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(318, 514);
+            this.panelRight.TabIndex = 1;
             // 
             // b_signin
             // 
@@ -213,16 +213,27 @@
             this.t_signin.TabIndex = 0;
             this.t_signin.Text = "Log In";
             // 
-            // labelPanel
+            // panelLeft
             // 
-            this.labelPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("labelPanel.BackgroundImage")));
-            this.labelPanel.Controls.Add(this.pictureBox1);
-            this.labelPanel.Controls.Add(this.t_sigehPengunten);
-            this.labelPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.labelPanel.Location = new System.Drawing.Point(0, 0);
-            this.labelPanel.Name = "labelPanel";
-            this.labelPanel.Size = new System.Drawing.Size(355, 514);
-            this.labelPanel.TabIndex = 0;
+            this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
+            this.panelLeft.Controls.Add(this.pictureBox1);
+            this.panelLeft.Controls.Add(this.t_sigehPengunten);
+            this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelLeft.Name = "panelLeft";
+            this.panelLeft.Size = new System.Drawing.Size(355, 514);
+            this.panelLeft.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(81, 171);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(219, 124);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // t_sigehPengunten
             // 
@@ -236,33 +247,22 @@
             this.t_sigehPengunten.TabIndex = 0;
             this.t_sigehPengunten.Text = "Sigeh Pengunten";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(81, 171);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 124);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // f_signin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(673, 514);
-            this.Controls.Add(this.mainPanel);
-            this.Controls.Add(this.labelPanel);
+            this.Controls.Add(this.panelRight);
+            this.Controls.Add(this.panelLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f_signin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "f_signin";
-            this.mainPanel.ResumeLayout(false);
-            this.mainPanel.PerformLayout();
-            this.labelPanel.ResumeLayout(false);
-            this.labelPanel.PerformLayout();
+            this.panelRight.ResumeLayout(false);
+            this.panelRight.PerformLayout();
+            this.panelLeft.ResumeLayout(false);
+            this.panelLeft.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -270,8 +270,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel labelPanel;
-        private System.Windows.Forms.Panel mainPanel;
+        private System.Windows.Forms.Panel panelLeft;
+        private System.Windows.Forms.Panel panelRight;
         private System.Windows.Forms.Label t_sigehPengunten;
         private System.Windows.Forms.Label t_descSignin;
         private System.Windows.Forms.Label t_signin;
