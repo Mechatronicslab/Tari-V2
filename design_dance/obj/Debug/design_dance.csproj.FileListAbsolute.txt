@@ -33,6 +33,26 @@ G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\
 G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Legacy.xml
 G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.exe
 G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.pdb
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_mainAdmin.resources
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_signin.resources
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_signup.resources
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csproj.GenerateResource.Cache
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.Properties.Resources.resources
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\design_dance.exe.config
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\design_dance.exe
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\design_dance.pdb
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\DnsClient.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Bson.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\System.Buffers.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\DnsClient.xml
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Bson.xml
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.xml
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.Legacy.xml
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.exe
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.pdb

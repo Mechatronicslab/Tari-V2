@@ -143,11 +143,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\siger.png" />
+    <None Include="Resources\main_bg.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg_login.png" />
+    <None Include="Resources\ic_siger.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

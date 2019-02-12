@@ -21,10 +21,8 @@ namespace design_dance
         public f_signin()
         {
             InitializeComponent();
-            Connect();
+            //Connect();
         }
-
-
 
         private void b_exit_Click(object sender, EventArgs e)
         {
@@ -42,7 +40,10 @@ namespace design_dance
         {
             string username = mUsername.TextName;
             string password = mPassword.TextName;
-            signIn(username, password);
+            //signIn(username, password);
+            f_mainAdmin frm = new f_mainAdmin();
+            frm.Show();
+            this.Visible = false;
         }
 
         public static void Connect()
@@ -72,23 +73,15 @@ namespace design_dance
 
             if (ress != null)
             {
-                /*Home frm = new Home();
+                f_mainAdmin frm = new f_mainAdmin();
                 frm.Show();
-                this.Visible = false;*/
-                MessageBox.Show("Login Sukses !!");
+                this.Visible = false;
+                //MessageBox.Show("Login Sukses !!");
             }
             else
             {
-
                 MessageBox.Show("Username atau Password Salah !!");
             }
-
-
-        }
-
-        private void mUsername_Load(object sender, EventArgs e)
-        {
-
-        }
+        }     
     }
 }

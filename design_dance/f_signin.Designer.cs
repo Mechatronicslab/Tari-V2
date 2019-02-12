@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_signin));
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.b_signin = new FlatButton.JFlatButton();
             this.mPassword = new JMaterialTextbox.JMaterialTextbox();
             this.t_password = new System.Windows.Forms.Label();
             this.mUsername = new JMaterialTextbox.JMaterialTextbox();
@@ -38,13 +39,12 @@
             this.t_username = new System.Windows.Forms.Label();
             this.t_descSignin = new System.Windows.Forms.Label();
             this.t_signin = new System.Windows.Forms.Label();
-            this.b_signin = new FlatButton.JFlatButton();
             this.labelPanel = new System.Windows.Forms.Panel();
-            this.bg_signin = new System.Windows.Forms.PictureBox();
+            this.ic_signin = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
             this.mainPanel.SuspendLayout();
             this.labelPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bg_signin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ic_signin)).BeginInit();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -64,6 +64,35 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(318, 514);
             this.mainPanel.TabIndex = 1;
+            // 
+            // b_signin
+            // 
+            this.b_signin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_signin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_signin.ButtonText = "     Sign In";
+            this.b_signin.CausesValidation = false;
+            this.b_signin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_signin.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("b_signin.ErrorImageLeft")));
+            this.b_signin.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("b_signin.ErrorImageRight")));
+            this.b_signin.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_signin.FocusFontColor = System.Drawing.Color.White;
+            this.b_signin.ForeColors = System.Drawing.Color.White;
+            this.b_signin.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.b_signin.HoverFontColor = System.Drawing.Color.White;
+            this.b_signin.ImageLeft = ((System.Drawing.Image)(resources.GetObject("b_signin.ImageLeft")));
+            this.b_signin.ImageRight = null;
+            this.b_signin.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.b_signin.Location = new System.Drawing.Point(11, 324);
+            this.b_signin.Margin = new System.Windows.Forms.Padding(4);
+            this.b_signin.Name = "b_signin";
+            this.b_signin.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.b_signin.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.b_signin.RightPictureColor = System.Drawing.Color.Transparent;
+            this.b_signin.Size = new System.Drawing.Size(291, 30);
+            this.b_signin.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.b_signin.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.b_signin.TabIndex = 9;
+            this.b_signin.Click += new System.EventHandler(this.b_signin_Click);
             // 
             // mPassword
             // 
@@ -118,8 +147,7 @@
             this.mUsername.Size = new System.Drawing.Size(291, 28);
             this.mUsername.TabIndex = 6;
             this.mUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.mUsername.TextName = "";
-            this.mUsername.Load += new System.EventHandler(this.mUsername_Load);
+            this.mUsername.TextName = "";            
             // 
             // b_exit
             // 
@@ -185,39 +213,10 @@
             this.t_signin.TabIndex = 0;
             this.t_signin.Text = "Log In";
             // 
-            // b_signin
-            // 
-            this.b_signin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_signin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_signin.ButtonText = "     Sign In";
-            this.b_signin.CausesValidation = false;
-            this.b_signin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.b_signin.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("b_signin.ErrorImageLeft")));
-            this.b_signin.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("b_signin.ErrorImageRight")));
-            this.b_signin.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_signin.FocusFontColor = System.Drawing.Color.White;
-            this.b_signin.ForeColors = System.Drawing.Color.White;
-            this.b_signin.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.b_signin.HoverFontColor = System.Drawing.Color.White;
-            this.b_signin.ImageLeft = ((System.Drawing.Image)(resources.GetObject("b_signin.ImageLeft")));
-            this.b_signin.ImageRight = null;
-            this.b_signin.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.b_signin.Location = new System.Drawing.Point(11, 324);
-            this.b_signin.Margin = new System.Windows.Forms.Padding(4);
-            this.b_signin.Name = "b_signin";
-            this.b_signin.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.b_signin.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.b_signin.RightPictureColor = System.Drawing.Color.Transparent;
-            this.b_signin.Size = new System.Drawing.Size(291, 30);
-            this.b_signin.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.b_signin.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.b_signin.TabIndex = 9;
-            this.b_signin.Click += new System.EventHandler(this.b_signin_Click);
-            // 
             // labelPanel
             // 
-            this.labelPanel.BackgroundImage = global::design_dance.Properties.Resources.bg_login1;
-            this.labelPanel.Controls.Add(this.bg_signin);
+            this.labelPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("labelPanel.BackgroundImage")));
+            this.labelPanel.Controls.Add(this.ic_signin);
             this.labelPanel.Controls.Add(this.t_sigehPengunten);
             this.labelPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.labelPanel.Location = new System.Drawing.Point(0, 0);
@@ -225,17 +224,16 @@
             this.labelPanel.Size = new System.Drawing.Size(355, 514);
             this.labelPanel.TabIndex = 0;
             // 
-            // bg_signin
+            // ic_signin
             // 
-            this.bg_signin.BackColor = System.Drawing.Color.Transparent;
-            this.bg_signin.BackgroundImage = global::design_dance.Properties.Resources.siger;
-            this.bg_signin.Image = global::design_dance.Properties.Resources.siger;
-            this.bg_signin.Location = new System.Drawing.Point(81, 171);
-            this.bg_signin.Name = "bg_signin";
-            this.bg_signin.Size = new System.Drawing.Size(219, 124);
-            this.bg_signin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bg_signin.TabIndex = 1;
-            this.bg_signin.TabStop = false;
+            this.ic_signin.BackColor = System.Drawing.Color.Transparent;
+            this.ic_signin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ic_signin.BackgroundImage")));
+            this.ic_signin.Location = new System.Drawing.Point(81, 171);
+            this.ic_signin.Name = "ic_signin";
+            this.ic_signin.Size = new System.Drawing.Size(219, 124);
+            this.ic_signin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ic_signin.TabIndex = 1;
+            this.ic_signin.TabStop = false;
             // 
             // t_sigehPengunten
             // 
@@ -265,7 +263,7 @@
             this.mainPanel.PerformLayout();
             this.labelPanel.ResumeLayout(false);
             this.labelPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bg_signin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ic_signin)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -274,7 +272,7 @@
 
         private System.Windows.Forms.Panel labelPanel;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.PictureBox bg_signin;
+        private System.Windows.Forms.PictureBox ic_signin;
         private System.Windows.Forms.Label t_sigehPengunten;
         private System.Windows.Forms.Label t_descSignin;
         private System.Windows.Forms.Label t_signin;

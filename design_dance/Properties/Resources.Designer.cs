@@ -63,9 +63,9 @@ namespace design_dance.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bg_login {
+        internal static System.Drawing.Bitmap ic_siger {
             get {
-                object obj = ResourceManager.GetObject("bg_login", resourceCulture);
+                object obj = ResourceManager.GetObject("ic_siger", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,69 +73,9 @@ namespace design_dance.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bg_login1 {
+        internal static System.Drawing.Bitmap main_bg {
             get {
-                object obj = ResourceManager.GetObject("bg_login1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_itb {
-            get {
-                object obj = ResourceManager.GetObject("icon_itb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_itb1 {
-            get {
-                object obj = ResourceManager.GetObject("icon_itb1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_itb2 {
-            get {
-                object obj = ResourceManager.GetObject("icon_itb2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_lpdp {
-            get {
-                object obj = ResourceManager.GetObject("icon_lpdp", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_lpdp1 {
-            get {
-                object obj = ResourceManager.GetObject("icon_lpdp1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap siger {
-            get {
-                object obj = ResourceManager.GetObject("siger", resourceCulture);
+                object obj = ResourceManager.GetObject("main_bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
