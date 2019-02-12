@@ -85,5 +85,10 @@ namespace design_dance
 
 
         }
+
+        private void mUsername_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

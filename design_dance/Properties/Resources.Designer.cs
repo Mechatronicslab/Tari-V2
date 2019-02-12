@@ -73,6 +73,16 @@ namespace design_dance.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg_login1 {
+            get {
+                object obj = ResourceManager.GetObject("bg_login1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_itb {
             get {
                 object obj = ResourceManager.GetObject("icon_itb", resourceCulture);
