@@ -16,15 +16,13 @@ namespace design_dance
     {
         static string developmentUri = "mongodb://localhost:27017";
         static string ProductionUri = "mongodb://maria:maria123@167.205.7.226:27017";
-        public static IMongoDatabase db;
-        public static IMongoClient client;
+        public IMongoDatabase db;
+        public IMongoClient client;
         public f_signin()
         {
             InitializeComponent();
             Connect();
         }
-
-
 
         private void b_exit_Click(object sender, EventArgs e)
         {
@@ -43,9 +41,19 @@ namespace design_dance
             string username = mUsername.TextName;
             string password = mPassword.TextName;
             signIn(username, password);
+            /*if(username == "admin" & password == "admin")
+            {
+                f_mainAdmin admin = new f_mainAdmin();
+                admin.Show();
+                this.Visible = false;
+            }else if(username == "user" & password == "user"){
+                f_mainUser user = new f_mainUser();
+                user.Show();
+                this.Visible = false;
+            }*/
         }
 
-        public static void Connect()
+        public void Connect()
         {
             client = new MongoClient(developmentUri);
             db = client.GetDatabase("Tari");
@@ -72,18 +80,15 @@ namespace design_dance
 
             if (ress != null)
             {
-                /*Home frm = new Home();
+                f_mainAdmin frm = new f_mainAdmin();
                 frm.Show();
-                this.Visible = false;*/
-                MessageBox.Show("Login Sukses !!");
+                this.Visible = false;
+                //MessageBox.Show("Login Sukses !!");
             }
             else
             {
-
                 MessageBox.Show("Username atau Password Salah !!");
             }
-
-
-        }
+        }     
     }
 }

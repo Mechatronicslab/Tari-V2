@@ -68,6 +68,8 @@
       <HintPath>..\packages\mongocsharpdriver.2.0.0\lib\net45\MongoDB.Driver.Legacy.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
@@ -78,6 +80,7 @@
       <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -87,19 +90,70 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin\main_menu\f_mainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\main_menu\f_mainAdmin.Designer.cs">
+      <DependentUpon>f_mainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin\model_tari\f_Tari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\model_tari\f_Tari.Designer.cs">
+      <DependentUpon>f_Tari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_mainUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_mainUser.Designer.cs">
+      <DependentUpon>f_mainUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="f_signin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="f_signin.Designer.cs">
       <DependentUpon>f_signin.cs</DependentUpon>
     </Compile>
+    <Compile Include="f_signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_signup.Designer.cs">
+      <DependentUpon>f_signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_userAct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_userAct.Designer.cs">
+      <DependentUpon>f_userAct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="admin\main_menu\f_mainAdmin.resx">
+      <DependentUpon>f_mainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\model_tari\f_Tari.resx">
+      <DependentUpon>f_Tari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_mainUser.resx">
+      <DependentUpon>f_mainUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="f_signin.resx">
       <DependentUpon>f_signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_signup.resx">
+      <DependentUpon>f_signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_userAct.resx">
+      <DependentUpon>f_userAct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -126,22 +180,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg_login.png" />
+    <None Include="Resources\main_bg.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\siger.png" />
+    <None Include="Resources\ic_siger.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icon_itb.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icon_lpdp.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icon_itb1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icon_lpdp1.png" />
+    <ProjectReference Include="..\WpfControlLibrary1\wpfModelTari.csproj">
+      <Project>{717E1FCA-4F5B-4714-A302-C69F6A120004}</Project>
+      <Name>wpfModelTari</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
