@@ -52,6 +52,14 @@
     <Reference Include="JThinButton">
       <HintPath>..\..\..\..\..\Downloads\JControls\JThinButton.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DirectX_VideoPlayer_DLL\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DirectX_VideoPlayer_DLL\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
+    </Reference>
     <Reference Include="MongoDB.Bson, Version=2.7.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MongoDB.Bson.2.7.3\lib\net45\MongoDB.Bson.dll</HintPath>
       <Private>True</Private>
@@ -68,8 +76,6 @@
       <HintPath>..\packages\mongocsharpdriver.2.0.0\lib\net45\MongoDB.Driver.Legacy.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
@@ -80,7 +86,6 @@
       <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -90,22 +95,11 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UIAutomationProvider" />
-    <Reference Include="WindowsBase" />
-    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin\main_menu\f_mainAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="admin\main_menu\f_mainAdmin.Designer.cs">
+    <Compile Include="f_mainAdmin.cs" />
+    <Compile Include="f_mainAdmin.Designer.cs">
       <DependentUpon>f_mainAdmin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="admin\model_tari\f_Tari.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="admin\model_tari\f_Tari.Designer.cs">
-      <DependentUpon>f_Tari.cs</DependentUpon>
     </Compile>
     <Compile Include="f_mainUser.cs">
       <SubType>Form</SubType>
@@ -137,11 +131,8 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="admin\main_menu\f_mainAdmin.resx">
+    <EmbeddedResource Include="f_mainAdmin.resx">
       <DependentUpon>f_mainAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="admin\model_tari\f_Tari.resx">
-      <DependentUpon>f_Tari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="f_mainUser.resx">
       <DependentUpon>f_mainUser.cs</DependentUpon>
@@ -180,16 +171,29 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\main_bg.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ic_siger.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WpfControlLibrary1\wpfModelTari.csproj">
-      <Project>{717E1FCA-4F5B-4714-A302-C69F6A120004}</Project>
-      <Name>wpfModelTari</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
