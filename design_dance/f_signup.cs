@@ -15,9 +15,9 @@ namespace design_dance
         public f_signup()
         {
             InitializeComponent();
-        }
+        }       
 
-        private void b_exit_Click(object sender, EventArgs e)
+        private void b_exit_Click_1(object sender, EventArgs e)
         {
             if (System.Windows.Forms.Application.MessageLoop)
             {

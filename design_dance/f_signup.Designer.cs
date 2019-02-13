@@ -30,8 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_signup));
             this.panelRight = new System.Windows.Forms.Panel();
-            this.t_copyright = new System.Windows.Forms.Label();
+            this.b_logout = new System.Windows.Forms.Button();
             this.b_exit = new System.Windows.Forms.Button();
+            this.t_copyright = new System.Windows.Forms.Label();
             this.t_descSignin = new System.Windows.Forms.Label();
             this.t_signup = new System.Windows.Forms.Label();
             this.b_signup = new FlatButton.JFlatButton();
@@ -40,17 +41,18 @@
             this.t_password = new System.Windows.Forms.Label();
             this.t_username = new System.Windows.Forms.Label();
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.i_siger = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
             this.panelRight.SuspendLayout();
             this.panelLeft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.i_siger)).BeginInit();
             this.SuspendLayout();
             // 
             // panelRight
             // 
-            this.panelRight.Controls.Add(this.t_copyright);
+            this.panelRight.Controls.Add(this.b_logout);
             this.panelRight.Controls.Add(this.b_exit);
+            this.panelRight.Controls.Add(this.t_copyright);
             this.panelRight.Controls.Add(this.t_descSignin);
             this.panelRight.Controls.Add(this.t_signup);
             this.panelRight.Controls.Add(this.b_signup);
@@ -64,16 +66,24 @@
             this.panelRight.Size = new System.Drawing.Size(318, 514);
             this.panelRight.TabIndex = 0;
             // 
-            // t_copyright
+            // b_logout
             // 
-            this.t_copyright.AutoSize = true;
-            this.t_copyright.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.t_copyright.Location = new System.Drawing.Point(214, 490);
-            this.t_copyright.Name = "t_copyright";
-            this.t_copyright.Size = new System.Drawing.Size(92, 15);
-            this.t_copyright.TabIndex = 15;
-            this.t_copyright.Text = "Copyright 2019";
+            this.b_logout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.b_logout.BackColor = System.Drawing.Color.Transparent;
+            this.b_logout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_logout.FlatAppearance.BorderSize = 0;
+            this.b_logout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.b_logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.b_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_logout.Location = new System.Drawing.Point(217, 4);
+            this.b_logout.Name = "b_logout";
+            this.b_logout.Size = new System.Drawing.Size(54, 21);
+            this.b_logout.TabIndex = 29;
+            this.b_logout.Text = "Logout";
+            this.b_logout.UseVisualStyleBackColor = false;
             // 
             // b_exit
             // 
@@ -87,13 +97,24 @@
             this.b_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.b_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_exit.Location = new System.Drawing.Point(261, 7);
+            this.b_exit.Image = ((System.Drawing.Image)(resources.GetObject("b_exit.Image")));
+            this.b_exit.Location = new System.Drawing.Point(277, 3);
             this.b_exit.Name = "b_exit";
-            this.b_exit.Size = new System.Drawing.Size(52, 23);
-            this.b_exit.TabIndex = 14;
-            this.b_exit.Text = "X";
+            this.b_exit.Size = new System.Drawing.Size(38, 21);
+            this.b_exit.TabIndex = 16;
             this.b_exit.UseVisualStyleBackColor = false;
-            this.b_exit.Click += new System.EventHandler(this.b_exit_Click);
+            this.b_exit.Click += new System.EventHandler(this.b_exit_Click_1);
+            // 
+            // t_copyright
+            // 
+            this.t_copyright.AutoSize = true;
+            this.t_copyright.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t_copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.t_copyright.Location = new System.Drawing.Point(214, 490);
+            this.t_copyright.Name = "t_copyright";
+            this.t_copyright.Size = new System.Drawing.Size(92, 15);
+            this.t_copyright.TabIndex = 15;
+            this.t_copyright.Text = "Copyright 2019";
             // 
             // t_descSignin
             // 
@@ -215,7 +236,7 @@
             // 
             this.panelLeft.BackColor = System.Drawing.Color.Transparent;
             this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
-            this.panelLeft.Controls.Add(this.pictureBox1);
+            this.panelLeft.Controls.Add(this.i_siger);
             this.panelLeft.Controls.Add(this.t_sigehPengunten);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
@@ -223,15 +244,15 @@
             this.panelLeft.Size = new System.Drawing.Size(355, 514);
             this.panelLeft.TabIndex = 0;
             // 
-            // pictureBox1
+            // i_siger
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(81, 171);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 124);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.i_siger.Image = ((System.Drawing.Image)(resources.GetObject("i_siger.Image")));
+            this.i_siger.Location = new System.Drawing.Point(81, 171);
+            this.i_siger.Name = "i_siger";
+            this.i_siger.Size = new System.Drawing.Size(219, 124);
+            this.i_siger.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.i_siger.TabIndex = 3;
+            this.i_siger.TabStop = false;
             // 
             // t_sigehPengunten
             // 
@@ -254,12 +275,13 @@
             this.Controls.Add(this.panelLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "f_signup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "f_signup";
             this.panelRight.ResumeLayout(false);
             this.panelRight.PerformLayout();
             this.panelLeft.ResumeLayout(false);
             this.panelLeft.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.i_siger)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -274,10 +296,11 @@
         private JMaterialTextbox.JMaterialTextbox mUsername;
         private FlatButton.JFlatButton b_signup;
         private System.Windows.Forms.Label t_sigehPengunten;
-        private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Label t_descSignin;
         private System.Windows.Forms.Label t_signup;
         private System.Windows.Forms.Label t_copyright;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox i_siger;
+        private System.Windows.Forms.Button b_exit;
+        private System.Windows.Forms.Button b_logout;
     }
 }

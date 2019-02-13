@@ -29,81 +29,102 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_mainAdmin));
-            this.panelHeader = new System.Windows.Forms.Panel();
             this.panelLeft = new System.Windows.Forms.Panel();
+            this.i_siger = new System.Windows.Forms.PictureBox();
+            this.t_sigehPengunten = new System.Windows.Forms.Label();
             this.panelRight = new System.Windows.Forms.Panel();
-            this.b_registrasi = new FlatButton.JFlatButton();
+            this.p_menuF = new System.Windows.Forms.Panel();
+            this.b_logout = new System.Windows.Forms.Button();
             this.b_exit = new System.Windows.Forms.Button();
+            this.t_copyright = new System.Windows.Forms.Label();
             this.t_descMenu = new System.Windows.Forms.Label();
             this.t_menu = new System.Windows.Forms.Label();
-            this.b_rekam = new FlatButton.JFlatButton();
-            this.b_model = new FlatButton.JFlatButton();
-            this.b_signout = new System.Windows.Forms.Button();
-            this.t_copyright = new System.Windows.Forms.Label();
-            this.panelHeader.SuspendLayout();
+            this.b_regist = new System.Windows.Forms.Button();
+            this.b_rekam = new System.Windows.Forms.Button();
+            this.b_model = new System.Windows.Forms.Button();
+            this.panelLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.i_siger)).BeginInit();
             this.panelRight.SuspendLayout();
+            this.p_menuF.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panelHeader
-            // 
-            this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panelHeader.Controls.Add(this.b_signout);
-            this.panelHeader.Controls.Add(this.b_exit);
-            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(0, 0);
-            this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(673, 43);
-            this.panelHeader.TabIndex = 0;
             // 
             // panelLeft
             // 
             this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
+            this.panelLeft.Controls.Add(this.i_siger);
+            this.panelLeft.Controls.Add(this.t_sigehPengunten);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft.Location = new System.Drawing.Point(0, 43);
+            this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(215, 471);
+            this.panelLeft.Size = new System.Drawing.Size(355, 514);
             this.panelLeft.TabIndex = 1;
+            // 
+            // i_siger
+            // 
+            this.i_siger.BackColor = System.Drawing.Color.Transparent;
+            this.i_siger.Image = ((System.Drawing.Image)(resources.GetObject("i_siger.Image")));
+            this.i_siger.Location = new System.Drawing.Point(71, 173);
+            this.i_siger.Name = "i_siger";
+            this.i_siger.Size = new System.Drawing.Size(219, 124);
+            this.i_siger.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.i_siger.TabIndex = 3;
+            this.i_siger.TabStop = false;
+            // 
+            // t_sigehPengunten
+            // 
+            this.t_sigehPengunten.AutoSize = true;
+            this.t_sigehPengunten.BackColor = System.Drawing.Color.Transparent;
+            this.t_sigehPengunten.Font = new System.Drawing.Font("Forte", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t_sigehPengunten.ForeColor = System.Drawing.Color.White;
+            this.t_sigehPengunten.Location = new System.Drawing.Point(40, 300);
+            this.t_sigehPengunten.Name = "t_sigehPengunten";
+            this.t_sigehPengunten.Size = new System.Drawing.Size(275, 41);
+            this.t_sigehPengunten.TabIndex = 2;
+            this.t_sigehPengunten.Text = "Sigeh Pengunten";
             // 
             // panelRight
             // 
+            this.panelRight.Controls.Add(this.p_menuF);
+            this.panelRight.Controls.Add(this.b_logout);
+            this.panelRight.Controls.Add(this.b_exit);
             this.panelRight.Controls.Add(this.t_copyright);
-            this.panelRight.Controls.Add(this.b_model);
-            this.panelRight.Controls.Add(this.b_rekam);
             this.panelRight.Controls.Add(this.t_descMenu);
             this.panelRight.Controls.Add(this.t_menu);
-            this.panelRight.Controls.Add(this.b_registrasi);
             this.panelRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelRight.Location = new System.Drawing.Point(215, 43);
+            this.panelRight.Location = new System.Drawing.Point(355, 0);
             this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(458, 471);
+            this.panelRight.Size = new System.Drawing.Size(518, 514);
             this.panelRight.TabIndex = 2;
             // 
-            // b_registrasi
+            // p_menuF
             // 
-            this.b_registrasi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_registrasi.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_registrasi.ButtonText = "  Registrasi";
-            this.b_registrasi.CausesValidation = false;
-            this.b_registrasi.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("b_registrasi.ErrorImageLeft")));
-            this.b_registrasi.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("b_registrasi.ErrorImageRight")));
-            this.b_registrasi.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
-            this.b_registrasi.FocusFontColor = System.Drawing.Color.Empty;
-            this.b_registrasi.ForeColors = System.Drawing.Color.White;
-            this.b_registrasi.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
-            this.b_registrasi.HoverFontColor = System.Drawing.Color.Empty;
-            this.b_registrasi.ImageLeft = ((System.Drawing.Image)(resources.GetObject("b_registrasi.ImageLeft")));
-            this.b_registrasi.ImageRight = null;
-            this.b_registrasi.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.b_registrasi.Location = new System.Drawing.Point(11, 113);
-            this.b_registrasi.Name = "b_registrasi";
-            this.b_registrasi.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.b_registrasi.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.b_registrasi.RightPictureColor = System.Drawing.Color.Transparent;
-            this.b_registrasi.Size = new System.Drawing.Size(190, 43);
-            this.b_registrasi.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.b_registrasi.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.b_registrasi.TabIndex = 0;
-            this.b_registrasi.Click += new System.EventHandler(this.b_registrasi_Click);
+            this.p_menuF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.p_menuF.Controls.Add(this.b_model);
+            this.p_menuF.Controls.Add(this.b_rekam);
+            this.p_menuF.Controls.Add(this.b_regist);
+            this.p_menuF.Location = new System.Drawing.Point(0, 84);
+            this.p_menuF.Name = "p_menuF";
+            this.p_menuF.Size = new System.Drawing.Size(518, 137);
+            this.p_menuF.TabIndex = 19;
+            // 
+            // b_logout
+            // 
+            this.b_logout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.b_logout.BackColor = System.Drawing.Color.Transparent;
+            this.b_logout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_logout.FlatAppearance.BorderSize = 0;
+            this.b_logout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.b_logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.b_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_logout.Location = new System.Drawing.Point(415, 4);
+            this.b_logout.Name = "b_logout";
+            this.b_logout.Size = new System.Drawing.Size(54, 21);
+            this.b_logout.TabIndex = 18;
+            this.b_logout.Text = "Logout";
+            this.b_logout.UseVisualStyleBackColor = false;
             // 
             // b_exit
             // 
@@ -116,14 +137,25 @@
             this.b_exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.b_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.b_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_exit.ForeColor = System.Drawing.Color.White;
-            this.b_exit.Location = new System.Drawing.Point(619, 9);
+            this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_exit.Image = ((System.Drawing.Image)(resources.GetObject("b_exit.Image")));
+            this.b_exit.Location = new System.Drawing.Point(477, 3);
             this.b_exit.Name = "b_exit";
-            this.b_exit.Size = new System.Drawing.Size(52, 23);
-            this.b_exit.TabIndex = 6;
-            this.b_exit.Text = "X";
+            this.b_exit.Size = new System.Drawing.Size(38, 21);
+            this.b_exit.TabIndex = 17;
             this.b_exit.UseVisualStyleBackColor = false;
-            this.b_exit.Click += new System.EventHandler(this.b_exit_Click);
+            this.b_exit.Click += new System.EventHandler(this.b_exit_Click_1);
+            // 
+            // t_copyright
+            // 
+            this.t_copyright.AutoSize = true;
+            this.t_copyright.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t_copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.t_copyright.Location = new System.Drawing.Point(414, 490);
+            this.t_copyright.Name = "t_copyright";
+            this.t_copyright.Size = new System.Drawing.Size(92, 15);
+            this.t_copyright.TabIndex = 16;
+            this.t_copyright.Text = "Copyright 2019";
             // 
             // t_descMenu
             // 
@@ -147,122 +179,90 @@
             this.t_menu.TabIndex = 2;
             this.t_menu.Text = "Main Menu";
             // 
+            // b_regist
+            // 
+            this.b_regist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_regist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_regist.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_regist.ForeColor = System.Drawing.Color.White;
+            this.b_regist.Image = ((System.Drawing.Image)(resources.GetObject("b_regist.Image")));
+            this.b_regist.Location = new System.Drawing.Point(6, 22);
+            this.b_regist.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.b_regist.Name = "b_regist";
+            this.b_regist.Size = new System.Drawing.Size(154, 91);
+            this.b_regist.TabIndex = 20;
+            this.b_regist.Text = "Registrasi User";
+            this.b_regist.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.b_regist.UseVisualStyleBackColor = false;
+            this.b_regist.Click += new System.EventHandler(this.b_regist_Click);
+            // 
             // b_rekam
             // 
             this.b_rekam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_rekam.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_rekam.ButtonText = "Rekam";
-            this.b_rekam.CausesValidation = false;
-            this.b_rekam.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("b_rekam.ErrorImageLeft")));
-            this.b_rekam.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("b_rekam.ErrorImageRight")));
-            this.b_rekam.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
-            this.b_rekam.FocusFontColor = System.Drawing.Color.Empty;
-            this.b_rekam.ForeColors = System.Drawing.Color.White;
-            this.b_rekam.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
-            this.b_rekam.HoverFontColor = System.Drawing.Color.Empty;
-            this.b_rekam.ImageLeft = ((System.Drawing.Image)(resources.GetObject("b_rekam.ImageLeft")));
-            this.b_rekam.ImageRight = null;
-            this.b_rekam.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.b_rekam.Location = new System.Drawing.Point(218, 113);
+            this.b_rekam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_rekam.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_rekam.ForeColor = System.Drawing.Color.White;
+            this.b_rekam.Image = ((System.Drawing.Image)(resources.GetObject("b_rekam.Image")));
+            this.b_rekam.Location = new System.Drawing.Point(182, 22);
+            this.b_rekam.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.b_rekam.Name = "b_rekam";
-            this.b_rekam.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.b_rekam.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.b_rekam.RightPictureColor = System.Drawing.Color.Transparent;
-            this.b_rekam.Size = new System.Drawing.Size(190, 43);
-            this.b_rekam.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.b_rekam.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.b_rekam.TabIndex = 4;
+            this.b_rekam.Size = new System.Drawing.Size(154, 91);
+            this.b_rekam.TabIndex = 21;
+            this.b_rekam.Text = "Rekam Tari";
+            this.b_rekam.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.b_rekam.UseVisualStyleBackColor = false;
             // 
             // b_model
             // 
             this.b_model.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_model.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_model.ButtonText = "Model Tari";
-            this.b_model.CausesValidation = false;
-            this.b_model.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("b_model.ErrorImageLeft")));
-            this.b_model.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("b_model.ErrorImageRight")));
-            this.b_model.FocusBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
-            this.b_model.FocusFontColor = System.Drawing.Color.Empty;
-            this.b_model.ForeColors = System.Drawing.Color.White;
-            this.b_model.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(58)))), ((int)(((byte)(147)))));
-            this.b_model.HoverFontColor = System.Drawing.Color.Empty;
-            this.b_model.ImageLeft = ((System.Drawing.Image)(resources.GetObject("b_model.ImageLeft")));
-            this.b_model.ImageRight = null;
-            this.b_model.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.b_model.Location = new System.Drawing.Point(11, 180);
+            this.b_model.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_model.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_model.ForeColor = System.Drawing.Color.White;
+            this.b_model.Image = ((System.Drawing.Image)(resources.GetObject("b_model.Image")));
+            this.b_model.Location = new System.Drawing.Point(358, 22);
+            this.b_model.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.b_model.Name = "b_model";
-            this.b_model.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.b_model.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.b_model.RightPictureColor = System.Drawing.Color.Transparent;
-            this.b_model.Size = new System.Drawing.Size(190, 43);
-            this.b_model.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.b_model.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.b_model.TabIndex = 5;
-            // 
-            // b_signout
-            // 
-            this.b_signout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.b_signout.BackColor = System.Drawing.Color.Transparent;
-            this.b_signout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.b_signout.FlatAppearance.BorderSize = 0;
-            this.b_signout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.b_signout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.b_signout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_signout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.b_signout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.b_signout.Location = new System.Drawing.Point(561, 9);
-            this.b_signout.Name = "b_signout";
-            this.b_signout.Size = new System.Drawing.Size(52, 23);
-            this.b_signout.TabIndex = 7;
-            this.b_signout.Text = "Signout";
-            this.b_signout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.b_signout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.b_signout.UseVisualStyleBackColor = false;
-            // 
-            // t_copyright
-            // 
-            this.t_copyright.AutoSize = true;
-            this.t_copyright.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t_copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.t_copyright.Location = new System.Drawing.Point(354, 447);
-            this.t_copyright.Name = "t_copyright";
-            this.t_copyright.Size = new System.Drawing.Size(92, 15);
-            this.t_copyright.TabIndex = 16;
-            this.t_copyright.Text = "Copyright 2019";
+            this.b_model.Size = new System.Drawing.Size(154, 91);
+            this.b_model.TabIndex = 22;
+            this.b_model.Text = "Model Tari";
+            this.b_model.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.b_model.UseVisualStyleBackColor = false;
             // 
             // f_mainAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 514);
+            this.ClientSize = new System.Drawing.Size(873, 514);
             this.Controls.Add(this.panelRight);
             this.Controls.Add(this.panelLeft);
-            this.Controls.Add(this.panelHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f_mainAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panelHeader.ResumeLayout(false);
+            this.panelLeft.ResumeLayout(false);
+            this.panelLeft.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.i_siger)).EndInit();
             this.panelRight.ResumeLayout(false);
             this.panelRight.PerformLayout();
+            this.p_menuF.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelHeader;
         private System.Windows.Forms.Panel panelLeft;
         private System.Windows.Forms.Panel panelRight;
-        private FlatButton.JFlatButton b_registrasi;
-        private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Label t_descMenu;
         private System.Windows.Forms.Label t_menu;
-        private FlatButton.JFlatButton b_rekam;
-        private FlatButton.JFlatButton b_model;
-        private System.Windows.Forms.Button b_signout;
         private System.Windows.Forms.Label t_copyright;
+        private System.Windows.Forms.PictureBox i_siger;
+        private System.Windows.Forms.Label t_sigehPengunten;
+        private System.Windows.Forms.Button b_exit;
+        private System.Windows.Forms.Button b_logout;
+        private System.Windows.Forms.Panel p_menuF;
+        private System.Windows.Forms.Button b_model;
+        private System.Windows.Forms.Button b_rekam;
+        private System.Windows.Forms.Button b_regist;
     }
 }

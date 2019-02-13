@@ -55,3 +55,5 @@ C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.C
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\MongoDB.Driver.Legacy.xml
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.exe
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.pdb
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_mainUser.resources

@@ -16,5 +16,17 @@ namespace design_dance
         {
             InitializeComponent();
         }
+
+        private void b_exit_Click(object sender, EventArgs e)
+        {
+            if (System.Windows.Forms.Application.MessageLoop)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
+            else
+            {
+                System.Environment.Exit(1);
+            }
+        }
     }
 }

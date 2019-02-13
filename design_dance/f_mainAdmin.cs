@@ -15,9 +15,16 @@ namespace design_dance
         public f_mainAdmin()
         {
             InitializeComponent();
+        }       
+
+        private void b_regist_Click(object sender, EventArgs e)
+        {
+            f_signup frm = new f_signup();
+            frm.Show();
+            this.Visible = false;
         }
 
-        private void b_exit_Click(object sender, EventArgs e)
+        private void b_exit_Click_1(object sender, EventArgs e)
         {
             if (System.Windows.Forms.Application.MessageLoop)
             {
@@ -27,13 +34,6 @@ namespace design_dance
             {
                 System.Environment.Exit(1);
             }
-        }
-
-        private void b_registrasi_Click(object sender, EventArgs e)
-        {
-            f_signup frm = new f_signup();
-            frm.Show();
-            this.Visible = false;
         }
     }
 }

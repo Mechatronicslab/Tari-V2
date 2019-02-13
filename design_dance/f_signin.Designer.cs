@@ -40,11 +40,11 @@
             this.t_descSignin = new System.Windows.Forms.Label();
             this.t_signin = new System.Windows.Forms.Label();
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.i_siger = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
             this.panelRight.SuspendLayout();
             this.panelLeft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.i_siger)).BeginInit();
             this.SuspendLayout();
             // 
             // panelRight
@@ -161,11 +161,11 @@
             this.b_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.b_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_exit.Location = new System.Drawing.Point(261, 7);
+            this.b_exit.Image = ((System.Drawing.Image)(resources.GetObject("b_exit.Image")));
+            this.b_exit.Location = new System.Drawing.Point(277, 3);
             this.b_exit.Name = "b_exit";
-            this.b_exit.Size = new System.Drawing.Size(52, 23);
+            this.b_exit.Size = new System.Drawing.Size(38, 21);
             this.b_exit.TabIndex = 5;
-            this.b_exit.Text = "X";
             this.b_exit.UseVisualStyleBackColor = false;
             this.b_exit.Click += new System.EventHandler(this.b_exit_Click);
             // 
@@ -216,7 +216,7 @@
             // panelLeft
             // 
             this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
-            this.panelLeft.Controls.Add(this.pictureBox1);
+            this.panelLeft.Controls.Add(this.i_siger);
             this.panelLeft.Controls.Add(this.t_sigehPengunten);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
@@ -224,16 +224,16 @@
             this.panelLeft.Size = new System.Drawing.Size(355, 514);
             this.panelLeft.TabIndex = 0;
             // 
-            // pictureBox1
+            // i_siger
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(81, 171);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 124);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.i_siger.BackColor = System.Drawing.Color.Transparent;
+            this.i_siger.Image = ((System.Drawing.Image)(resources.GetObject("i_siger.Image")));
+            this.i_siger.Location = new System.Drawing.Point(81, 171);
+            this.i_siger.Name = "i_siger";
+            this.i_siger.Size = new System.Drawing.Size(219, 124);
+            this.i_siger.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.i_siger.TabIndex = 1;
+            this.i_siger.TabStop = false;
             // 
             // t_sigehPengunten
             // 
@@ -263,7 +263,7 @@
             this.panelRight.PerformLayout();
             this.panelLeft.ResumeLayout(false);
             this.panelLeft.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.i_siger)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -282,7 +282,7 @@
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Label t_copyright;
         private System.Windows.Forms.Label t_username;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox i_siger;
     }
 }
 
