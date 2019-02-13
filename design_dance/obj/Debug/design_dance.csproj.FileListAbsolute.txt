@@ -57,3 +57,11 @@ C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.exe
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.pdb
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_mainUser.resources
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.f_userAct.resources
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\Microsoft.DirectX.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\Interop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csproj.ResolveComReference.cache
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\Interop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
