@@ -35,14 +35,14 @@
             this.b_exit = new System.Windows.Forms.Button();
             this.p_mainCam = new System.Windows.Forms.Panel();
             this.pn_mainVideo = new System.Windows.Forms.Panel();
-            this.pi_mainVideo = new System.Windows.Forms.PictureBox();
             this.pi_mainCam = new System.Windows.Forms.PictureBox();
-            this.roundedButton1 = new design_dance.RoundedButton();
+            this.pi_videoM = new AxWMPLib.AxWindowsMediaPlayer();
+            this.b_play = new design_dance.RoundedButton();
             this.p_head.SuspendLayout();
             this.p_mainCam.SuspendLayout();
             this.pn_mainVideo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pi_mainVideo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pi_mainCam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pi_videoM)).BeginInit();
             this.SuspendLayout();
             // 
             // p_head
@@ -116,7 +116,7 @@
             // 
             // p_mainCam
             // 
-            this.p_mainCam.Controls.Add(this.roundedButton1);
+            this.p_mainCam.Controls.Add(this.b_play);
             this.p_mainCam.Controls.Add(this.pn_mainVideo);
             this.p_mainCam.Controls.Add(this.pi_mainCam);
             this.p_mainCam.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -127,24 +127,18 @@
             // 
             // pn_mainVideo
             // 
-            this.pn_mainVideo.Controls.Add(this.pi_mainVideo);
+            this.pn_mainVideo.Controls.Add(this.pi_videoM);
             this.pn_mainVideo.Location = new System.Drawing.Point(3, 3);
             this.pn_mainVideo.Name = "pn_mainVideo";
-            this.pn_mainVideo.Size = new System.Drawing.Size(294, 204);
+            this.pn_mainVideo.Size = new System.Drawing.Size(329, 195);
             this.pn_mainVideo.TabIndex = 0;
-            // 
-            // pi_mainVideo
-            // 
-            this.pi_mainVideo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pi_mainVideo.Location = new System.Drawing.Point(0, 0);
-            this.pi_mainVideo.Name = "pi_mainVideo";
-            this.pi_mainVideo.Size = new System.Drawing.Size(294, 204);
-            this.pi_mainVideo.TabIndex = 0;
-            this.pi_mainVideo.TabStop = false;
             // 
             // pi_mainCam
             // 
-            this.pi_mainCam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pi_mainCam.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pi_mainCam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.pi_mainCam.Location = new System.Drawing.Point(0, 0);
             this.pi_mainCam.Name = "pi_mainCam";
             this.pi_mainCam.Size = new System.Drawing.Size(898, 573);
@@ -152,19 +146,31 @@
             this.pi_mainCam.TabIndex = 1;
             this.pi_mainCam.TabStop = false;
             // 
-            // roundedButton1
+            // pi_videoM
             // 
-            this.roundedButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.roundedButton1.FlatAppearance.BorderSize = 0;
-            this.roundedButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(94)))));
-            this.roundedButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(94)))));
-            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton1.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton1.Image")));
-            this.roundedButton1.Location = new System.Drawing.Point(347, 163);
-            this.roundedButton1.Name = "roundedButton1";
-            this.roundedButton1.Size = new System.Drawing.Size(205, 203);
-            this.roundedButton1.TabIndex = 33;
-            this.roundedButton1.UseVisualStyleBackColor = false;
+            this.pi_videoM.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pi_videoM.Enabled = true;
+            this.pi_videoM.Location = new System.Drawing.Point(0, 0);
+            this.pi_videoM.Name = "pi_videoM";
+            this.pi_videoM.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("pi_videoM.OcxState")));
+            this.pi_videoM.Size = new System.Drawing.Size(329, 195);
+            this.pi_videoM.TabIndex = 0;
+            // 
+            // b_play
+            // 
+            this.b_play.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.b_play.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_play.FlatAppearance.BorderSize = 0;
+            this.b_play.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(67)))));
+            this.b_play.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(67)))));
+            this.b_play.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_play.Image = ((System.Drawing.Image)(resources.GetObject("b_play.Image")));
+            this.b_play.Location = new System.Drawing.Point(381, 237);
+            this.b_play.Name = "b_play";
+            this.b_play.Size = new System.Drawing.Size(145, 140);
+            this.b_play.TabIndex = 2;
+            this.b_play.UseVisualStyleBackColor = false;
+            this.b_play.Click += new System.EventHandler(this.b_play_Click);
             // 
             // f_userAct
             // 
@@ -182,8 +188,8 @@
             this.p_head.PerformLayout();
             this.p_mainCam.ResumeLayout(false);
             this.pn_mainVideo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pi_mainVideo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pi_mainCam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pi_videoM)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -193,11 +199,12 @@
         private System.Windows.Forms.Panel p_head;
         private System.Windows.Forms.Panel p_mainCam;
         private System.Windows.Forms.Panel pn_mainVideo;
-        private System.Windows.Forms.PictureBox pi_mainVideo;
         private System.Windows.Forms.PictureBox pi_mainCam;
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Button b_logout;
         private System.Windows.Forms.Button b_back;
-        private RoundedButton roundedButton1;
+        private RoundedButton roundedButton;
+        private RoundedButton b_play;
+        private AxWMPLib.AxWindowsMediaPlayer pi_videoM;
     }
 }

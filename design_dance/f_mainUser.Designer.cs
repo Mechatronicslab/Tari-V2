@@ -241,6 +241,7 @@
             this.b_tariD.Text = "Sembah";
             this.b_tariD.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.b_tariD.UseVisualStyleBackColor = false;
+            this.b_tariD.Click += new System.EventHandler(this.b_tariD_Click);
             // 
             // p_menuF
             // 
@@ -270,6 +271,7 @@
             this.b_tariC.Text = "Lapah Tebeng";
             this.b_tariC.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.b_tariC.UseVisualStyleBackColor = false;
+            this.b_tariC.Click += new System.EventHandler(this.b_tariC_Click);
             // 
             // b_tariB
             // 
@@ -287,6 +289,7 @@
             this.b_tariB.Text = "Balik Paloh";
             this.b_tariB.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.b_tariB.UseVisualStyleBackColor = false;
+            this.b_tariB.Click += new System.EventHandler(this.b_tariB_Click);
             // 
             // b_tariA
             // 
