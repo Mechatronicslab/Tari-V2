@@ -35,5 +35,12 @@ namespace design_dance
             sin.Show();
             this.Visible = false;
         }
+
+        private void b_tariA_Click(object sender, EventArgs e)
+        {
+            f_userAct A = new f_userAct();
+            A.Show();
+            this.Visible = false;
+        }
     }
 }

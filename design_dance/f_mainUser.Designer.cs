@@ -304,6 +304,7 @@
             this.b_tariA.Text = "Seluang Mudik";
             this.b_tariA.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.b_tariA.UseVisualStyleBackColor = false;
+            this.b_tariA.Click += new System.EventHandler(this.b_tariA_Click);
             // 
             // t_copyright
             // 
@@ -421,6 +422,7 @@
             this.Controls.Add(this.panelRight);
             this.Controls.Add(this.panelLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f_mainUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "f_mainUser";
