@@ -1,0 +1,120 @@
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csproj.GenerateResource.Cache
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\System.Buffers.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.xml
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.xml
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.xml
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.xml
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+c:\users\kinect\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csprojResolveAssemblyReference.cache
+D:\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+D:\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+D:\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+D:\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+D:\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+D:\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.dll
+D:\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.dll
+D:\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.dll
+D:\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.dll
+D:\WpfApplication2\WpfApplication2\bin\Debug\System.Buffers.dll
+D:\WpfApplication2\WpfApplication2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.xml
+D:\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+D:\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.xml
+D:\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.xml
+D:\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.xml
+D:\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csprojResolveAssemblyReference.cache
+D:\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+D:\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+D:\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csproj.GenerateResource.Cache
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\System.Buffers.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.xml
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.xml
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.xml
+D:\Thesis\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.xml
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csprojResolveAssemblyReference.cache
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Thesis\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csproj.GenerateResource.Cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\System.Buffers.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csprojResolveAssemblyReference.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csproj.GenerateResource.Cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\System.Buffers.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\DnsClient.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Bson.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\bin\Debug\MongoDB.Driver.Core.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csprojResolveAssemblyReference.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\BrekelVisualizer.csproj.GenerateResource.Cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb

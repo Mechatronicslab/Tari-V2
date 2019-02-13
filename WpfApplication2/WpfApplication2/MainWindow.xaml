@@ -1,0 +1,30 @@
+﻿<Window x:Class="BrekelVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="480" Width="858">
+    <Grid Margin="0,0,230,0">
+        <Canvas Name="canvas" Background="#FF383838"/>
+        <Grid HorizontalAlignment="Left" Width="620" Height="61" VerticalAlignment="Bottom">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC9C9C9" Offset="1"/>
+                    <GradientStop Color="#FF2EA800" Offset="0.608"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Slider Name="Suraido" IsSnapToTickEnabled="True" Minimum="0" Maximum="499" TickFrequency="1" Margin="71,21,57,21" RenderTransformOrigin="6.417,2.111" Background="#FF890000" BorderBrush="#FFCDCDCD" Foreground="White" ValueChanged="Slider_ValueChanged"/>
+            <Button Name="PlayB" Content="PLAY" HorizontalAlignment="Left" Margin="15,10,0,10" Width="41
+                    " Click="Button_Click"/>
+            <Label Name="SlideLab" Content="0" Margin="568,17,10,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="227" Background="LightGray">
+            <Label Content="Collection" HorizontalAlignment="Left" Margin="6,6,0,0" VerticalAlignment="Top"/>
+            <ComboBox Name="CBx" Margin="9,30,9,0" Height="22" VerticalAlignment="Top" SelectionChanged="CBx_SelectionChanged"/>
+            <Button Content="LOAD" Margin="0,0,9,10" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Click="LOAD_Click"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="449" Margin="620,0,-230,0" VerticalAlignment="Top" Width="230">
+            <Canvas Name="SideCanvas" HorizontalAlignment="Left" Height="449" VerticalAlignment="Top" Width="230" Background="#FF00F3E8"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
