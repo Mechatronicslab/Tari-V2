@@ -43,6 +43,7 @@
             this.panelLeft = new System.Windows.Forms.Panel();
             this.i_siger = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
+            this.b_back = new System.Windows.Forms.Button();
             this.panelRight.SuspendLayout();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.i_siger)).BeginInit();
@@ -236,6 +237,7 @@
             // 
             this.panelLeft.BackColor = System.Drawing.Color.Transparent;
             this.panelLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLeft.BackgroundImage")));
+            this.panelLeft.Controls.Add(this.b_back);
             this.panelLeft.Controls.Add(this.i_siger);
             this.panelLeft.Controls.Add(this.t_sigehPengunten);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
@@ -265,6 +267,23 @@
             this.t_sigehPengunten.Size = new System.Drawing.Size(275, 41);
             this.t_sigehPengunten.TabIndex = 2;
             this.t_sigehPengunten.Text = "Sigeh Pengunten";
+            // 
+            // b_back
+            // 
+            this.b_back.AutoSize = true;
+            this.b_back.BackColor = System.Drawing.Color.Transparent;
+            this.b_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_back.FlatAppearance.BorderSize = 0;
+            this.b_back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.b_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.b_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_back.Image = ((System.Drawing.Image)(resources.GetObject("b_back.Image")));
+            this.b_back.Location = new System.Drawing.Point(2, 3);
+            this.b_back.Name = "b_back";
+            this.b_back.Size = new System.Drawing.Size(44, 40);
+            this.b_back.TabIndex = 5;
+            this.b_back.UseVisualStyleBackColor = false;
+            this.b_back.Click += new System.EventHandler(this.b_back_Click);
             // 
             // f_signup
             // 
@@ -302,5 +321,6 @@
         private System.Windows.Forms.PictureBox i_siger;
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Button b_logout;
+        private System.Windows.Forms.Button b_back;
     }
 }

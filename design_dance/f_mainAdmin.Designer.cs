@@ -34,14 +34,14 @@
             this.t_sigehPengunten = new System.Windows.Forms.Label();
             this.panelRight = new System.Windows.Forms.Panel();
             this.p_menuF = new System.Windows.Forms.Panel();
+            this.b_model = new System.Windows.Forms.Button();
+            this.b_rekam = new System.Windows.Forms.Button();
+            this.b_regist = new System.Windows.Forms.Button();
             this.b_logout = new System.Windows.Forms.Button();
             this.b_exit = new System.Windows.Forms.Button();
             this.t_copyright = new System.Windows.Forms.Label();
             this.t_descMenu = new System.Windows.Forms.Label();
             this.t_menu = new System.Windows.Forms.Label();
-            this.b_regist = new System.Windows.Forms.Button();
-            this.b_rekam = new System.Windows.Forms.Button();
-            this.b_model = new System.Windows.Forms.Button();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.i_siger)).BeginInit();
             this.panelRight.SuspendLayout();
@@ -106,6 +106,58 @@
             this.p_menuF.Name = "p_menuF";
             this.p_menuF.Size = new System.Drawing.Size(518, 137);
             this.p_menuF.TabIndex = 19;
+            // 
+            // b_model
+            // 
+            this.b_model.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(10)))), ((int)(((byte)(91)))));
+            this.b_model.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_model.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_model.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_model.ForeColor = System.Drawing.Color.White;
+            this.b_model.Image = ((System.Drawing.Image)(resources.GetObject("b_model.Image")));
+            this.b_model.Location = new System.Drawing.Point(358, 22);
+            this.b_model.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.b_model.Name = "b_model";
+            this.b_model.Size = new System.Drawing.Size(154, 91);
+            this.b_model.TabIndex = 22;
+            this.b_model.Text = "Model Tari";
+            this.b_model.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.b_model.UseVisualStyleBackColor = false;
+            // 
+            // b_rekam
+            // 
+            this.b_rekam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(187)))), ((int)(((byte)(155)))));
+            this.b_rekam.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_rekam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_rekam.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_rekam.ForeColor = System.Drawing.Color.White;
+            this.b_rekam.Image = ((System.Drawing.Image)(resources.GetObject("b_rekam.Image")));
+            this.b_rekam.Location = new System.Drawing.Point(182, 22);
+            this.b_rekam.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.b_rekam.Name = "b_rekam";
+            this.b_rekam.Size = new System.Drawing.Size(154, 91);
+            this.b_rekam.TabIndex = 21;
+            this.b_rekam.Text = "Rekam Tari";
+            this.b_rekam.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.b_rekam.UseVisualStyleBackColor = false;
+            // 
+            // b_regist
+            // 
+            this.b_regist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
+            this.b_regist.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_regist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_regist.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_regist.ForeColor = System.Drawing.Color.White;
+            this.b_regist.Image = ((System.Drawing.Image)(resources.GetObject("b_regist.Image")));
+            this.b_regist.Location = new System.Drawing.Point(6, 22);
+            this.b_regist.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.b_regist.Name = "b_regist";
+            this.b_regist.Size = new System.Drawing.Size(154, 91);
+            this.b_regist.TabIndex = 20;
+            this.b_regist.Text = "Registrasi User";
+            this.b_regist.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.b_regist.UseVisualStyleBackColor = false;
+            this.b_regist.Click += new System.EventHandler(this.b_regist_Click);
             // 
             // b_logout
             // 
@@ -178,55 +230,6 @@
             this.t_menu.Size = new System.Drawing.Size(124, 25);
             this.t_menu.TabIndex = 2;
             this.t_menu.Text = "Main Menu";
-            // 
-            // b_regist
-            // 
-            this.b_regist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_regist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_regist.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_regist.ForeColor = System.Drawing.Color.White;
-            this.b_regist.Image = ((System.Drawing.Image)(resources.GetObject("b_regist.Image")));
-            this.b_regist.Location = new System.Drawing.Point(6, 22);
-            this.b_regist.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
-            this.b_regist.Name = "b_regist";
-            this.b_regist.Size = new System.Drawing.Size(154, 91);
-            this.b_regist.TabIndex = 20;
-            this.b_regist.Text = "Registrasi User";
-            this.b_regist.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.b_regist.UseVisualStyleBackColor = false;
-            this.b_regist.Click += new System.EventHandler(this.b_regist_Click);
-            // 
-            // b_rekam
-            // 
-            this.b_rekam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_rekam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_rekam.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_rekam.ForeColor = System.Drawing.Color.White;
-            this.b_rekam.Image = ((System.Drawing.Image)(resources.GetObject("b_rekam.Image")));
-            this.b_rekam.Location = new System.Drawing.Point(182, 22);
-            this.b_rekam.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
-            this.b_rekam.Name = "b_rekam";
-            this.b_rekam.Size = new System.Drawing.Size(154, 91);
-            this.b_rekam.TabIndex = 21;
-            this.b_rekam.Text = "Rekam Tari";
-            this.b_rekam.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.b_rekam.UseVisualStyleBackColor = false;
-            // 
-            // b_model
-            // 
-            this.b_model.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_model.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_model.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_model.ForeColor = System.Drawing.Color.White;
-            this.b_model.Image = ((System.Drawing.Image)(resources.GetObject("b_model.Image")));
-            this.b_model.Location = new System.Drawing.Point(358, 22);
-            this.b_model.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
-            this.b_model.Name = "b_model";
-            this.b_model.Size = new System.Drawing.Size(154, 91);
-            this.b_model.TabIndex = 22;
-            this.b_model.Text = "Model Tari";
-            this.b_model.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.b_model.UseVisualStyleBackColor = false;
             // 
             // f_mainAdmin
             // 

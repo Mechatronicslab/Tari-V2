@@ -28,5 +28,12 @@ namespace design_dance
                 System.Environment.Exit(1);
             }
         }
+
+        private void b_back_Click(object sender, EventArgs e)
+        {            
+            f_mainAdmin frm = new f_mainAdmin();
+            frm.Show();
+            this.Visible = false;
+        }
     }
 }
