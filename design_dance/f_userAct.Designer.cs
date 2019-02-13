@@ -34,10 +34,10 @@
             this.b_logout = new System.Windows.Forms.Button();
             this.b_exit = new System.Windows.Forms.Button();
             this.p_mainCam = new System.Windows.Forms.Panel();
-            this.b_play = new System.Windows.Forms.Button();
             this.pn_mainVideo = new System.Windows.Forms.Panel();
             this.pi_mainVideo = new System.Windows.Forms.PictureBox();
             this.pi_mainCam = new System.Windows.Forms.PictureBox();
+            this.roundedButton1 = new design_dance.RoundedButton();
             this.p_head.SuspendLayout();
             this.p_mainCam.SuspendLayout();
             this.pn_mainVideo.SuspendLayout();
@@ -116,7 +116,7 @@
             // 
             // p_mainCam
             // 
-            this.p_mainCam.Controls.Add(this.b_play);
+            this.p_mainCam.Controls.Add(this.roundedButton1);
             this.p_mainCam.Controls.Add(this.pn_mainVideo);
             this.p_mainCam.Controls.Add(this.pi_mainCam);
             this.p_mainCam.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -124,22 +124,6 @@
             this.p_mainCam.Name = "p_mainCam";
             this.p_mainCam.Size = new System.Drawing.Size(898, 573);
             this.p_mainCam.TabIndex = 1;
-            // 
-            // b_play
-            // 
-            this.b_play.AutoSize = true;
-            this.b_play.BackColor = System.Drawing.Color.Transparent;
-            this.b_play.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.b_play.FlatAppearance.BorderSize = 0;
-            this.b_play.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.b_play.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.b_play.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_play.Image = ((System.Drawing.Image)(resources.GetObject("b_play.Image")));
-            this.b_play.Location = new System.Drawing.Point(404, 212);
-            this.b_play.Name = "b_play";
-            this.b_play.Size = new System.Drawing.Size(134, 134);
-            this.b_play.TabIndex = 32;
-            this.b_play.UseVisualStyleBackColor = false;
             // 
             // pn_mainVideo
             // 
@@ -168,6 +152,20 @@
             this.pi_mainCam.TabIndex = 1;
             this.pi_mainCam.TabStop = false;
             // 
+            // roundedButton1
+            // 
+            this.roundedButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.roundedButton1.FlatAppearance.BorderSize = 0;
+            this.roundedButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(94)))));
+            this.roundedButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(94)))));
+            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton1.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton1.Image")));
+            this.roundedButton1.Location = new System.Drawing.Point(347, 163);
+            this.roundedButton1.Name = "roundedButton1";
+            this.roundedButton1.Size = new System.Drawing.Size(205, 203);
+            this.roundedButton1.TabIndex = 33;
+            this.roundedButton1.UseVisualStyleBackColor = false;
+            // 
             // f_userAct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,7 +181,6 @@
             this.p_head.ResumeLayout(false);
             this.p_head.PerformLayout();
             this.p_mainCam.ResumeLayout(false);
-            this.p_mainCam.PerformLayout();
             this.pn_mainVideo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pi_mainVideo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pi_mainCam)).EndInit();
@@ -201,6 +198,6 @@
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Button b_logout;
         private System.Windows.Forms.Button b_back;
-        private System.Windows.Forms.Button b_play;
+        private RoundedButton roundedButton1;
     }
 }
