@@ -35,5 +35,12 @@ namespace design_dance
             frm.Show();
             this.Visible = false;
         }
+
+        private void b_logout_Click(object sender, EventArgs e)
+        {
+            f_signin sin = new f_signin();
+            sin.Show();
+            this.Visible = false;
+        }
     }
 }

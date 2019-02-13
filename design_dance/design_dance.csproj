@@ -113,6 +113,12 @@
     <Compile Include="f_signup.Designer.cs">
       <DependentUpon>f_signup.cs</DependentUpon>
     </Compile>
+    <Compile Include="f_userAct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_userAct.Designer.cs">
+      <DependentUpon>f_userAct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="f_signup.resx">
       <DependentUpon>f_signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_userAct.resx">
+      <DependentUpon>f_userAct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

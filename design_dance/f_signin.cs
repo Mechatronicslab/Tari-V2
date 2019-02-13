@@ -41,9 +41,16 @@ namespace design_dance
             string username = mUsername.TextName;
             string password = mPassword.TextName;
             //signIn(username, password);
-            f_mainAdmin frm = new f_mainAdmin();
-            frm.Show();
-            this.Visible = false;
+            if(username == "admin" & password == "admin")
+            {
+                f_mainAdmin admin = new f_mainAdmin();
+                admin.Show();
+                this.Visible = false;
+            }else if(username == "user" & password == "user"){
+                f_mainUser user = new f_mainUser();
+                user.Show();
+                this.Visible = false;
+            }
         }
 
         public static void Connect()

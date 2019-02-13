@@ -28,5 +28,12 @@ namespace design_dance
                 System.Environment.Exit(1);
             }
         }
+
+        private void b_logout_Click(object sender, EventArgs e)
+        {
+            f_signin sin = new f_signin();
+            sin.Show();
+            this.Visible = false;
+        }
     }
 }

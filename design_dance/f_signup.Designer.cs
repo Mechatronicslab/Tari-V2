@@ -41,9 +41,9 @@
             this.t_password = new System.Windows.Forms.Label();
             this.t_username = new System.Windows.Forms.Label();
             this.panelLeft = new System.Windows.Forms.Panel();
+            this.b_back = new System.Windows.Forms.Button();
             this.i_siger = new System.Windows.Forms.PictureBox();
             this.t_sigehPengunten = new System.Windows.Forms.Label();
-            this.b_back = new System.Windows.Forms.Button();
             this.panelRight.SuspendLayout();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.i_siger)).BeginInit();
@@ -85,6 +85,7 @@
             this.b_logout.TabIndex = 29;
             this.b_logout.Text = "Logout";
             this.b_logout.UseVisualStyleBackColor = false;
+            this.b_logout.Click += new System.EventHandler(this.b_logout_Click);
             // 
             // b_exit
             // 
@@ -246,6 +247,23 @@
             this.panelLeft.Size = new System.Drawing.Size(355, 514);
             this.panelLeft.TabIndex = 0;
             // 
+            // b_back
+            // 
+            this.b_back.AutoSize = true;
+            this.b_back.BackColor = System.Drawing.Color.Transparent;
+            this.b_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_back.FlatAppearance.BorderSize = 0;
+            this.b_back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.b_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.b_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_back.Image = ((System.Drawing.Image)(resources.GetObject("b_back.Image")));
+            this.b_back.Location = new System.Drawing.Point(2, 3);
+            this.b_back.Name = "b_back";
+            this.b_back.Size = new System.Drawing.Size(44, 40);
+            this.b_back.TabIndex = 5;
+            this.b_back.UseVisualStyleBackColor = false;
+            this.b_back.Click += new System.EventHandler(this.b_back_Click);
+            // 
             // i_siger
             // 
             this.i_siger.Image = ((System.Drawing.Image)(resources.GetObject("i_siger.Image")));
@@ -267,23 +285,6 @@
             this.t_sigehPengunten.Size = new System.Drawing.Size(275, 41);
             this.t_sigehPengunten.TabIndex = 2;
             this.t_sigehPengunten.Text = "Sigeh Pengunten";
-            // 
-            // b_back
-            // 
-            this.b_back.AutoSize = true;
-            this.b_back.BackColor = System.Drawing.Color.Transparent;
-            this.b_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.b_back.FlatAppearance.BorderSize = 0;
-            this.b_back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.b_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.b_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_back.Image = ((System.Drawing.Image)(resources.GetObject("b_back.Image")));
-            this.b_back.Location = new System.Drawing.Point(2, 3);
-            this.b_back.Name = "b_back";
-            this.b_back.Size = new System.Drawing.Size(44, 40);
-            this.b_back.TabIndex = 5;
-            this.b_back.UseVisualStyleBackColor = false;
-            this.b_back.Click += new System.EventHandler(this.b_back_Click);
             // 
             // f_signup
             // 

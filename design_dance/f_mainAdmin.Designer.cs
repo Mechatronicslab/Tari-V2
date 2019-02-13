@@ -177,6 +177,7 @@
             this.b_logout.TabIndex = 18;
             this.b_logout.Text = "Logout";
             this.b_logout.UseVisualStyleBackColor = false;
+            this.b_logout.Click += new System.EventHandler(this.b_logout_Click);
             // 
             // b_exit
             // 
