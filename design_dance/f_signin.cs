@@ -80,7 +80,7 @@ namespace design_dance
 
             if (ress != null)
             {
-                f_mainAdmin frm = new f_mainAdmin();
+                f_mainUser frm = new f_mainUser();
                 frm.Show();
                 this.Visible = false;
                 //MessageBox.Show("Login Sukses !!");

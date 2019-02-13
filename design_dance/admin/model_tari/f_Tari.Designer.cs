@@ -51,9 +51,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Integration.ElementHost elementHost1;
         private System.Windows.Forms.Integration.ElementHost elementHost2;
         private WpfControlLibrary1.UserControl1 userControl11;
     }

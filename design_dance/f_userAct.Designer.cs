@@ -203,7 +203,6 @@
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Button b_logout;
         private System.Windows.Forms.Button b_back;
-        private RoundedButton roundedButton;
         private RoundedButton b_play;
         private AxWMPLib.AxWindowsMediaPlayer pi_videoM;
     }
