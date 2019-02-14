@@ -10,7 +10,6 @@ C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\bin\Debug\DnsClient.
 C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\bin\Debug\MongoDB.Bson.xml
 C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\bin\Debug\MongoDB.Driver.xml
 C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\bin\Debug\MongoDB.Driver.Core.xml
-C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\obj\Debug\wpfModelTari.csprojResolveAssemblyReference.cache
 C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\obj\Debug\ModelTari.g.cs
 C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.cache
 C:\Users\gakga\Downloads\Project\Tari-V2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.lref
